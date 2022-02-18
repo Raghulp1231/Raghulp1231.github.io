@@ -1,0 +1,39 @@
+<html> 
+<head> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#panel").click(function(){
+    $("#flip").slideDown("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+<title>frame2</title> 
+</head> 
+<body bgcolor = "green"> 
+<h2><b>CSE</b></h2> 
+<div id = "panel">click me slide down </div>
+<div id= "flip">
+<a href="intr.html"  target="new">LOCATION</a><br> <br> 
+<a href="op.html" target="new">CONTACT</a><br> <br> 
+<a href="ou.html"  target="new">ABOUT US</a><br> <br> 
+</div>
+</body> 
+</html>  
+
+
+
+

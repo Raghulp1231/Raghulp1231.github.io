@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#a").css("color", "red").slideUp(2000).slideDown(2000);
+  });
+});
+</script>
+</head>
+
+    
+  
+  
+  </head>
+  
+  <body  background = "1.jpg">
+      
+  <h1>Student Details</h1>
+ 
+<div id = "a">  
+     <form action="./insertSDetails.jsp">
+      
+    REG NO : <input type="text" name="rollno" /><br><br>
+ 
+    Name : <input type="text" name="name" /><br><br>
+           
+    AREA : <input type="text" name="branch" /><br><br>
+ 
+    2 0R 3 MONTH : <input type="text" name="per10" /><br><br>
+         
+   FEES : <input type="text" name="per12" /><br><br>
+   
+    <input type="submit" value="Insert Details" />
+    
+    </form>
+ </div>
+<br><br>
+
+
+<button>slide show</button>
+
+</body>
+</html>
+
